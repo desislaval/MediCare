@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.InformationFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_small"
+                android:src="@drawable/ic_person" />
+
+            <ImageView
+                android:id="@+id/iv_egn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_name"
+                android:layout_margin="@dimen/margin_small"
+                android:src="@drawable/ic_egn" />
+
+            <ImageView
+                android:id="@+id/iv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_egn"
+                android:layout_margin="@dimen/margin_small"
+                android:src="@drawable/ic_pin_drop" />
+
+            <ImageView
+                android:id="@+id/iv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_address"
+                android:layout_margin="@dimen/margin_small"
+                android:src="@drawable/ic_phone" />
+
+            <ImageView
+                android:id="@+id/iv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_phone_number"
+                android:layout_margin="@dimen/margin_small"
+                android:src="@drawable/ic_email" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                style="@style/TextFields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_toEndOf="@id/iv_person" />
+
+            <TextView
+                android:id="@+id/txt_egn"
+                style="@style/TextFields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_name"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_toEndOf="@id/iv_egn" />
+
+            <TextView
+                android:id="@+id/txt_address"
+                style="@style/TextFields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_egn"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_toEndOf="@id/iv_address" />
+
+            <TextView
+                android:id="@+id/txt_phone_number"
+                style="@style/TextFields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_address"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_toEndOf="@id/iv_phone" />
+
+            <TextView
+                android:id="@+id/txt_email"
+                style="@style/TextFields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_phone_number"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_toEndOf="@id/iv_email" />
+
+            <TextView
+                android:id="@+id/txt_description"
+                style="@style/TextFields"
+                android:textStyle="bold|italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                android:layout_margin="@dimen/margin_small"
+                android:text="@string/chronic_diseases" />
+
+            <TextView
+                android:id="@+id/txt_chronicle_diseases"
+                style="@style/TextFields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_toEndOf="@id/txt_description" />
+
+            <TextView
+                android:textStyle="bold|italic"
+                android:id="@+id/txt_description2"
+                style="@style/TextFields"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_description"
+                android:layout_margin="@dimen/margin_small"
+                android:text="@string/allergies" />
+
+            <TextView
+                android:id="@+id/txt_allergies"
+                style="@style/TextFields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_chronicle_diseases"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_toEndOf="@id/txt_description2" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@id/txt_name" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@id/txt_egn" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@id/txt_address" />
+
+            <View
+                style="@style/Divider"
+                android:layout_below="@id/txt_phone_number" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_below="@id/txt_email"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="48dp"
+                android:background="?android:attr/listDivider" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</layout>

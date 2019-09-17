@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediCare</string>
+    <string name="address">Адрес</string>
+    <string name="allergies">Алергии</string>
+    <string name="authentication_failed">Грешка при удостоверяването</string>
+    <string name="chronic_diseases">Хронични болести</string>
+    <string name="delete">Изтрий</string>
+    <string name="edit">Редактиране</string>
+    <string name="egn">ЕГН</string>
+    <string name="egn_check">Невалидно ЕГН. Трябва да съдържа 10 цифри.</string>
+    <string name="email">Имейл</string>
+    <string name="email_check">Невалиден имейл</string>
+    <string name="empty_field_error">Моля попълнете това поле.</string>
+    <string name="full_name">Имена</string>
+    <string name="logout">Изход</string>
+    <string name="password">Парола</string>
+    <string name="password_check">Паролата трябва да съдържа минимум 6 и максимум 20 символа.</string>
+    <string name="phone_number">Телефонен номер</string>
+    <string name="phone_number_check">Телефонният номер трябва да съдържа само цифри.</string>
+    <string name="save">Запази</string>
+    <string name="search_hint">Въведи ЕГН</string>
+    <string name="sign_in">Вход</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="symptoms">Симптоми</string>
+    <string name="treatment">Лечение</string>
+    <string name="show_check_ups">Покажи прегледи</string>
+    <string name="add_check_up">Добави преглед</string>
+    <string name="exit_unsaved_changes">Сигурни ли сте, че искате да излезете без да запазите промените?</string>
+</resources>

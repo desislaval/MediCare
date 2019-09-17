@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MediCare</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logout">Log Out</string>
+    <string name="egn">EGN</string>
+    <string name="empty_field_error">Please fill this field.</string>
+    <string name="full_name">Full name</string>
+    <string name="save">Save</string>
+    <string name="test_name">Desislava Stoyanova Lazarova</string>
+    <string name="test_egn">9604162222</string>
+    <string name="chronic_diseases">Chronic diseases</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="treatment">Treatment</string>
+    <string name="search_hint">Type egn</string>
+    <string name="phone_number_check">Phone number must contain numbers only.</string>
+    <string name="email_check">Email is not valid.</string>
+    <string name="egn_check">Invalid EGN. Must be 10 characters.</string>
+    <string name="authentication_failed">Authentication Failed.</string>
+    <string name="password_check">Password must be between 6 and 20 characters long.</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="allergies">Allergies</string>
+    <string name="show_check_ups">Show check-ups</string>
+    <string name="add_check_up">Add check-up</string>
+    <string name="exit_unsaved_changes">Are you sure you want to exit without saving changes?</string>
+</resources>
